@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SublimStore" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/naranja_oscuro</item>
+        <item name="colorPrimaryVariant">@color/naranja</item>
+        <item name="colorOnPrimary">@color/gris</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/naranja</item>
+        <item name="colorSecondaryVariant">@color/amarillo_calido</item>
+        <item name="colorOnSecondary">@color/blanco</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/blanco</item>
+        <item name="colorSurface">@color/blanco</item>
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/gris</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <!-- Font family -->
+        <item name="android:fontFamily">@font/alegreyasc_regular</item>
+        <item name="fontFamily">@font/alegreyasc_regular</item>
+        <!-- Text styles -->
+        <item name="android:textAppearanceLarge">@style/TextAppearance.SublimStore.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.SublimStore.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.SublimStore.Small</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.SublimStore.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Profile fragment theme -->
+    <style name="Theme.SublimStore.Profile" parent="Theme.SublimStore">
+        <item name="displayOptions">showTitle</item>
+        <item name="homeAsUpIndicator">@null</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="TextAppearance.SublimStore.Large" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:fontFamily">@font/alegreyasc_regular</item>
+        <item name="fontFamily">@font/alegreyasc_regular</item>
+    </style>
+
+    <style name="TextAppearance.SublimStore.Medium" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/alegreyasc_regular</item>
+        <item name="fontFamily">@font/alegreyasc_regular</item>
+    </style>
+
+    <style name="TextAppearance.SublimStore.Small" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/alegreyasc_regular</item>
+        <item name="fontFamily">@font/alegreyasc_regular</item>
+    </style>
+</resources>

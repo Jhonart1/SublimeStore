@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SublimStore" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/coral_suave</item>
+        <item name="colorPrimaryVariant">@color/naranja</item>
+        <item name="colorOnPrimary">@color/gris</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/amarillo_calido</item>
+        <item name="colorSecondaryVariant">@color/amarillo_calido</item>
+        <item name="colorOnSecondary">@color/blanco</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/gris</item>
+        <item name="colorSurface">@color/gris</item>
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/blanco</item>
+        <item name="android:textColorSecondary">#FFCCCCCC</item>
+        <!-- Font family -->
+        <item name="android:fontFamily">@font/alegreyasc_regular</item>
+        <item name="fontFamily">@font/alegreyasc_regular</item>
+        <!-- Text styles -->
+        <item name="android:textAppearanceLarge">@style/TextAppearance.SublimStore.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.SublimStore.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.SublimStore.Small</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

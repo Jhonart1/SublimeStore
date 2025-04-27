@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tienda</string>
+    <string name="app_name2">Sublime</string>
+    <string name="welcome_message">Sublima tus ideas</string>
+    <string name="loading_message">Calentando las Maquinas...</string>
+    <string name="splash_image_description">Logo de la aplicación</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="title_cart">Carrito</string>
+    <string name="title_profile">Perfil</string>
+</resources>
